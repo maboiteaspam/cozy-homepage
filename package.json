@@ -1,0 +1,44 @@
+{
+  "name": "cozy-homepage",
+  "description": "Cozy-light homepage manager",
+  "version": "0.0.0",
+  "author": "maboiteaspam",
+  "licenses": [
+    {
+      "type": "AGPLv3",
+      "url": "https://github.com/maboiteaspam/cozy-homepage/blob/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "personal",
+    "cloud",
+    "paas",
+    "docker",
+    "deployment",
+    "apps",
+    "simple",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/maboiteaspam/cozy-homepage/issues"
+  },
+  "contributors": [
+    "maboiteaspam"
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "mocha --globals s --reporter spec tests.js",
+    "lint": "eslint index.js tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maboiteaspam/cozy-homepage.git"
+  },
+  "displayName": "Homepage"
+}
